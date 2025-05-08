@@ -1,0 +1,74 @@
+MVP Development Prompt for StoryChain (Working Name)
+Build an MVP for a mobile or web application called “StoryChain” — a collaborative storytelling platform designed to help creators like musicians, movie directors, or series producers overcome creative blocks by crowdsourcing ideas from the public.
+
+Core MVP Features:
+
+User Roles
+
+Creators (e.g., musicians, directors) who start storytelling challenges.
+
+Contributors (fans, writers, ordinary users) who submit ideas to continue or expand a story.
+
+Post a Creative Challenge
+
+A Creator posts a scenario (e.g., end of a song, cliffhanger in a series).
+
+Option to add description, images, audio/video snippets, or context.
+
+Submission Portal
+
+Contributors respond by submitting text entries (e.g., lyrics, dialogue, plot ideas).
+
+Limit word count for MVP (e.g., 250–500 words).
+
+Include plagiarism warning.
+
+Voting & Selection
+
+Other users or the Creator can upvote or "heart" submissions.
+
+Top-voted ideas appear on a leaderboard.
+
+Reward System (basic logic, not full payment integration for MVP)
+
+Creator selects a winner.
+
+MVP can simulate rewards with points or badges. Future version to include actual monetary reward/payments.
+
+Authentication
+
+Simple sign-up/sign-in (Google/Facebook/Email).
+
+MVP can allow anonymous submissions too.
+
+Basic Profiles
+
+Contributors can view their submissions and points.
+
+Creators can manage challenges and winners.
+
+Optional MVP Bonus:
+
+AI-assist feature for contributors to get a prompt or help if stuck.
+
+Commenting/feedback under submissions.
+
+Target Platform for MVP:
+Mobile-first web app (or basic Android/iOS app using Flutter or React Native).
+
+Tech Suggestions (for MVP):
+
+Frontend: React / Flutter
+
+Backend: Firebase / Supabase
+
+Database: Firestore / PostgreSQL
+
+Authentication: Firebase Auth / Auth0
+
+Optional AI tools: OpenAI API for idea suggestions
+
+No-code MVP options: Glide, Adalo, or Bubble (if you're solo prototyping)
+
+Goal of MVP:
+To validate the idea by allowing a few creators and fans to interact, create, submit, vote, and select a winning storyline — proving engagement and value in collaborative creativity.
